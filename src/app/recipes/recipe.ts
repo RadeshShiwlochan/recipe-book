@@ -1,4 +1,4 @@
 import { Ingredients } from '../ingredients';
 export class Recipe {
-  constructor(public name, public description, public imagePath, public ingredArr: Ingredients[]) {}
+  constructor(public name:string, public description: string, public imagePath:string, public ingredArr: Ingredients[]) {}
 }
